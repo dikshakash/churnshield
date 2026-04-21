@@ -329,7 +329,7 @@ with st.sidebar:
     st.markdown("---")
     
     # Customer ID and basic info
-    customer_id = st.text_input("Customer ID/Name", "Mohd Shami")
+    customer_id = st.text_input("Customer ID/Name", "Diksha kashyap")
     join_date = st.date_input("Join Date", datetime.now() - timedelta(days=365))
     
     st.subheader("Demographics")
